@@ -13,4 +13,15 @@ def get_file_contents(path):
     f.close()  #关闭文件
     return str  #返回文本
 
+# 将文本进行jieba分词
+def filter(str):
+    str = jieba.lcut(str) #对文本进行jieba分词
+    result = []   #用于存储分词结果
+    for tags in str:
+        if(re.match(u"[a-zA-Z0-9\u4e00-u9fa5]",tags)):  #对字母a-z，A-Z，数字0-9，汉字进行保存
+            result.append(tags)
+        else:pass
+
+
+
 
