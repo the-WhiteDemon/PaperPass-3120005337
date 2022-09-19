@@ -5,12 +5,16 @@
 |   这个作业的要求在哪里    |   [个人项目作业-论文查重][作业的链接] |
 |   这个作业的目标  |   1.学习并制作一个论文查重的软件</br> 2.学习单元测试</br>  3.学习性能分析及代码覆盖率</br>    4.学习PSP表格   |
 |   GitHub链接  |   [论文查重代码仓库链接][仓库链接]    |
-|   参考文献    |   1.参考文献1[参考文献链接1]</br> |
+|   参考文献    |   1.[基于python中jieba包的详细使用介绍][jieba介绍链接]</br>2.[python——正则表达式(re模块)详解][re介绍链接]</br>3.[Gensim库的使用——Gensim库的核心概念介绍][Gensim介绍链接]</br>4.[【python】gensim corpora的简单使用][corpora使用链接]</br>5.[python简单实现论文查重][python简单实现论文查重] |
+
 
 [toc]
 
 ##项目地址
 [GitHub代码仓库链接][仓库链接]
+语言：Python 3.10
+IDE：Pycharm 2022.2.1
+环境依赖：requirement.txt
 
 ##  PSP表格
 |   PSP2.1  |   Personal Software Process Stages    |   预估耗时(分钟)  |   实际耗时(分钟)  |
@@ -212,4 +216,16 @@ if __name__ == '__main__':
 ```
 
 ##  覆盖率
-文本
+main.py的覆盖率如图
+![main.py代码覆盖率](main代码覆盖率截图)
+其中若两份文件都存在，则该部分不会被覆盖到，属正常情况
+![未覆盖到的代码](未覆盖代码截图)
+
+[班级的链接]:https://bbs.csdn.net/forums/gdut-ryuezh
+[作业的链接]:https://bbs.csdn.net/topics/608092799
+[仓库链接]:https://github.com/the-WhiteDemon/PaperPass-3120005337
+[jieba介绍链接]:https://blog.csdn.net/TFATS/article/details/108810284
+[re介绍链接]:https://blog.csdn.net/guo_qingxia/article/details/113979135
+[Gensim介绍链接]:https://blog.csdn.net/qq_28790663/article/details/115382114
+[corpora使用链接]:https://blog.csdn.net/Yolen_Chan/article/details/84934928
+[python简单实现论文查重]:https://www.bbsmax.com/A/6pdDqYWkzw/
